@@ -2,6 +2,7 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
+	font-family: 'Noto Sans', sans-serif;
 }
 .container{
 	width:90%;
@@ -31,14 +32,38 @@
 	position:relative;
 	text-align:left;
 }
+.Password{
+	position:relative;
+}
+.Password a{
+	position:absolute;
+	right:5px;
+	text-decoration:none;
+	top:4px;
+	z-index:1;
+	color:blue;
+	font-size:14px;
+	margin:5px;
+	padding:5px 10px;
+	padding:5px;
+}
+.Password a:hover{
+    padding:5px 10px;
+    text-decoration:underline;
+	border-radius:15px;
+	padding:5px;
+	background-color:skyblue;	
+	margin:5px;
+}
 .stay{
+	font-weight:200;
 	text-align:left;
 	padding-top:5px;
 	padding-bottom:20px;
-	color:rgba(0,0,0,0.9);
+	color:black;
 	font-size:15px;
 }
-input[type=email]{
+.form-input{
 	padding:12px 0;
 	padding-right:120px;
 	padding-left:10px;
@@ -51,19 +76,7 @@ input[type=email]{
 	border:1px solid gray;
 	border-radius:5px;
 }
-input[type=password]{
-	padding:12px 0;
-	padding-right:120px;
-	padding-left:10px;
-	font-weight: 400;
-	color: rgba(0,0,0,0.9);
-	position: relative;
-	z-index: 1;
-	height: 45px;
-	border:1px solid gray;
-	border-radius:5px;
-	margin-bottom:13px;
-}
+
 
 .input[placeholder]{
 	text-align:top;
@@ -163,7 +176,7 @@ h4::before{
     align-items:center;
     justify-content:center;
 	list-style:none;
-	padding-bottom:25px;
+	/* padding-bottom:25px; */
 }
 p{
 	padding:25px 0;

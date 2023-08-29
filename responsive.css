@@ -1,0 +1,132 @@
+@media(min-width:320px) and (max-width:550px){
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:100%;
+	margin:0 auto;
+}
+.d_none{
+	display:none;
+}
+
+.col_sm_12{
+	width:100%;
+	padding:0 10px;
+}
+.col_sm_10{
+	width:50%;
+	padding:0 10px;
+}
+.signin_box{
+	padding:20px;
+	border-radius:7px;
+	box-shadow:0px 0px 15px #cccc;
+	width:100%;
+	height:auto;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin:0 auto;
+}
+.signin{
+	text-decoration:none;
+	color:white;
+	border-radius:25px;
+	padding:15px 110px;
+	background-color:blue;
+}
+.continue{
+	text-decoration:none;
+	color:black;
+	border-radius:25px;
+	padding:10px 36px;
+	border:1px solid gray;
+	background-color:white;
+}
+.signinapple{
+    text-decoration:none;
+	color:black;
+	border-radius:25px;
+	padding:10px 50px;
+	border:1px solid gray;
+	background-color:rgba(0,0,0,0);	
+}
+.form-input{
+	padding:12px 0;
+	padding-right:100px;
+	padding-left:10px;
+	font-weight: 400;
+	color: rgba(0,0,0,0.9);
+	position: relative;
+	z-index: 1;
+	height: 45px;
+	margin-bottom:13px;
+	border:1px solid gray;
+	border-radius:5px;
+}
+
+}
+@media (min-width:769px) and (max-width:999px){
+.col_lm_12{
+	width:100%;
+	padding:0 10px;
+}
+.col_lm_10{
+	width:80%;
+	padding:0 10px;
+}
+.signin_box{
+	padding:20px;
+	border-radius:7px;
+	box-shadow:0px 0px 15px #cccc;
+	width:100%;
+	height:auto;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin:0 auto;
+}
+.signin{
+	text-decoration:none;
+	color:white;
+	border-radius:25px;
+	padding:15px 110px;
+	background-color:blue;
+}
+.continue{
+	text-decoration:none;
+	color:black;
+	border-radius:25px;
+	padding:10px 36px;
+	border:1px solid gray;
+	background-color:white;
+}
+.signinapple{
+    text-decoration:none;
+	color:black;
+	border-radius:25px;
+	padding:10px 50px;
+	border:1px solid gray;
+	background-color:rgba(0,0,0,0);	
+}
+.form-input{
+	padding:12px 0;
+	padding-right:100px;
+	padding-left:10px;
+	font-weight: 400;
+	color: rgba(0,0,0,0.9);
+	position: relative;
+	z-index: 1;
+	height: 45px;
+	margin-bottom:13px;
+	border:1px solid gray;
+	border-radius:5px;
+}
+
+.d_none{
+	display:none;
+}
+}
