@@ -81,6 +81,9 @@
 .input[placeholder]{
 	text-align:top;
 }
+.forgot{
+	padding-bottom:20px;
+}
 .forgot_password {
 	padding:10px 0;
 	color:#0a66c2;
@@ -130,6 +133,9 @@ h4::before{
 	top:55%;
     left:0;
 }
+.continue_btn{
+	padding-bottom:30px;
+}
 .continue{
 	text-decoration:none;
 	color:black;
@@ -146,7 +152,7 @@ h4::before{
     text-decoration:none;
 	color:black;
 	border-radius:25px;
-	padding:10px 60px;
+	padding:10px 65px;
 	border:1px solid gray;
 	background-color:rgba(0,0,0,0);
 	

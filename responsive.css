@@ -1,4 +1,4 @@
-@media(min-width:320px) and (max-width:550px){
+@media(min-width:320px) and (max-width:768px){
 *{
 	margin:0;
 	padding:0;
@@ -38,6 +38,7 @@
 	padding:15px 110px;
 	background-color:blue;
 }
+
 .continue{
 	text-decoration:none;
 	color:black;
@@ -125,7 +126,9 @@
 	border:1px solid gray;
 	border-radius:5px;
 }
-
+.Password{
+	padding-bottom:10px;
+}
 .d_none{
 	display:none;
 }
